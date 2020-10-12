@@ -8,6 +8,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link href="assets/ionicons/css/ionicons.min.css" rel="stylesheet">
         <link href="assets/icons/ionicons/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto-condensed">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
     </head>
@@ -52,14 +53,18 @@
         </nav>
 
         <!-- Home -->
-        <div id="home" class="intro route bg-image" style="background-image: url(assets/images/gate.jpg)">
+        <div id="home" class="intro route bg-image">
             <div id="home" class="intro route bg-image">
                 <div class="intro-content display-table">
                     <div class="table-cell">
                         <div class="container">
                             <h1 class="intro-title mb-4">FIRST WORLD LIMITED</h1>
                             <p class="intro-subtitle">
-                                <span class="text-slider-items"></span>Hire the best car with the best price, We provide most reliable cars for your journey </span><strong class="text-slider"></strong>
+                                <div class="animated-text">
+                                    <div class="line">Hire the best car with the best price</div>
+                                    <br>
+                                    <div class="line">We provide most reliable cars for your journey</div>
+                                </div>
                             </p>
                             <div class="socials">
                                 <ul>
@@ -75,6 +80,7 @@
                     </div>
                 </div>
             </div>
+        </div>
 
             <!-- About -->
             <main id="main">
@@ -95,14 +101,20 @@
                 </div>
                 </section>
 
+                <br><br>
+
                 <!-- services -->
                 <section id="services" class="service-mf sect-pt4 route">
                     <div class= "container">
-                        <h3><strong>SERVICES</strong></h3>
+                        <div class="service-title">
+                            <p><strong>SERVICES</strong></p>
+                        </div>
                         <p class="text-center">We offer car hire on a 24hr basis. Below are our charge rates based on the number of seats in the vehicle:</p>
                         <div class="row">
                             <div class="col-md-6 mb-2">
-                                <h5><strong>5 SEATERS</strong></h5>
+                                <div class="seats">
+                                    <p><strong>5 SEATERS</strong></p>
+                                </div>
                                 <ul>
                                     DAIHATSU, MIRA & SUZUKI
                                     <li>Mon - Thur 2000kes per day</li>
@@ -121,14 +133,16 @@
                                 </ul>
                             </div>
                             <div class="col-md-6 mb-2">
-                                <h5><strong>7 SEATERS</strong></h5>
-                                <div class="text-center">NOAH, VOXY, SIENTA, ISIS, WISH, PASSO-SETTE</div>
+                                <div class="seats">
+                                    <p><strong>7 SEATERS</strong></p>
+                                </div>
                                 <ul>
+                                    NOAH, VOXY, SIENTA, ISIS, WISH, PASSO-SETTE
                                     <li>Mon - Thur 4000kes per day</li>
                                     <li>Fri - Sun 5000kes per day</li>
+                                    <br><br><br>
+                                    <p><strong>NB: CAR WASH IS PAID IN ADVANCE <em>KES 200</em></strong></p>
                                 </ul>
-                                <br><br><br>
-                                <p><strong>NB: CAR WASH IS PAID IN ADVANCE <em>KES 200</em></strong></p>
                             </div>
 
                         </div>
@@ -138,25 +152,25 @@
                 <!-- contact us -->
                 <section id="contact" class="service-mf sect-pt4 route">
                     <div class= "container">
-                        <h5><strong>CONTACT US</strong></h5>
+                        <h3><strong>CONTACT US</strong></h3>
                         <div class="row">
                             <div class="col-md-6">
                                 <p>SEND US A MESSAGE</p>
-                                <form>
+                                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfGqBJt7FYrLKaNiyo4uwFwoImGzGQFKrgGd4Pi9240iLPZVA/formResponse" target="_self" method="POST">
                                     <div class="form-group">
-                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                        <input type="text" name="entry.488797869" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
                                         <div class="validate"></div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                        <input type="email" class="form-control" name="entry.72716515" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required/>
                                         <div class="validate"></div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone number" data-rule="minlen:10" data-msg="Please enter a valid phone number" />
+                                        <input type="tel" class="form-control" name="entry.976006239" id="phone" placeholder="Your Phone number" data-rule="minlen:10" data-msg="Please enter a valid phone number" required/>
                                         <div class="validate"></div>
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                        <textarea class="form-control" name="entry.1000800546" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message" required></textarea>
                                         <div class="validate"></div>
                                     </div>
                                     <div class="text-center">
@@ -177,7 +191,7 @@
                                     </p>
                                     <ul class="list-ico" >
                                         <li ><span class="ion-ios-location"></span><a href="https://www.google.com/maps/place/FIRST+WORLD+LIMITED+OFFICES-MANYANJA+ROAD/@-1.2847506,36.900756,21z/data=!4m5!3m4!1s0x182f138f8b5420c7:0x2a09c86d9bc705f6!8m2!3d-1.2847437!4d36.9009365">DONHOLM along Manyanja Road OPP White house next to Mbuyu Executive Car Wash</a></li>
-                                        <li><span class="ion-ios-telephone"></span> (254) 721-626-644  0</li>
+                                        <li><span class="ion-ios-telephone"></span> (254) 721-626-644</li>
                                         <li><span class="ion-email"></span>firstworldlimited@yahoo.com</li>
                                     </ul>
                                 </div>
@@ -187,9 +201,6 @@
                 </section>
             </main>
             
-            
-
-
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
