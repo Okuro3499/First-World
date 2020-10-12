@@ -1,18 +1,18 @@
-## FIRST WORLD LIMITED
+# FIRST WORLD LIMITED
 
-# Author
+## Author
  Gideon Okuro
 
-# Version
+## Version
 10/12/2020
 
-# Description
+## Description
 This is a web application for First World Limited which is a car hire and leasing business
 
-# Live Page
+## Live Page
 https://okuro3499.github.io/First-World/
 
-# Installation / Setup instruction
+## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
 
 * Type: git clone https://github.com/Okuro3499/First-World.git
@@ -21,18 +21,18 @@ https://okuro3499.github.io/First-World/
 
 * code . or atom . depending on the text editor of your choice.
 
-# Technologies Used
+## Technologies Used
 * [HTML5]
 * [CSS]
 * [Bootstrap]
 * [Javascript]
 
-# Known Bugs
+## Known Bugs
 Submitting the contact form redirect you to google forms page
 
-# Contact Information
+## Contact Information
 If you have any question or contributions that would better this app, please email me at [gideonollonde@gmail.com]
 
-# License
+## License
 MIT License:
-Copyright (c) 2019 Gideon Okuro
+Copyright (c) 2020 Gideon Okuro
